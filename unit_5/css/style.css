@@ -4,7 +4,9 @@
 	margin:0;
 }
 header{
-	background-color: #385CFF;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 body{
 	font-family: Helvetica, Arial, sans-serif;
@@ -35,10 +37,21 @@ nav a{
 	margin: 55px;
 	font-size: 40px;
 	font-weight: bold;
+	background-color: #E8C66A;
 }
 main{
+	background-color: #E89C6C;
 
 }
 img{ 
 	width:320px;
+}
+aside{
+	background-color: #FFC675;
+}
+div{
+	background-color: #FFE2B8;
+}
+section{
+	background-color: #FFE2B8;
 }
