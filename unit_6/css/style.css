@@ -4,83 +4,74 @@
 	margin:0;
 }
 header{
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
 }
 body{
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	color:black;
+	font-size: 25px;
+	color:orange;
+	
 }
 
 h4{
 	font-family: 'Oswald', sans-serif;
-	text-align: center;
+	text-align: right;
 	font-size: 20px;
+	color: white;
 }
 h1{
 	font-family: 'Oswald', sans-serif;
 	color: #E7FF69;
 	font-style: italic;
-	font-weight: normal;
-	text-align: center;
-	font-size: 80px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 60px;
 }
 a{ 
-	color: orange;
+	color: red; 
 	text-decoration: none; 
 }
+
 nav a{
 	color: #cccccc;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
-	margin: 55px;
+	padding: 10.6px;
 	font-size: 40px;
-	font-weight: bold;
-	background-color: red;
-}
-main{
-	background-color: #yellow;
-	width:100%;
-
-}
-img{ 
-	width:100px;
-}
-aside{
-	background-color: blue;
-}
-div{
-	background-color: green;
-}
-.wrapper {
-
-}
-section{
-	background-color: brown;
+	font-weight: normal;
 }
 
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
+main>h3{
+	text-align: center;
 }
 
-#left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
+.activities img{
+	width:75%;
+	display: block;
+	margin: 0;
+}
+
+.activities{
+	background-color: #1D4D5B;
 	float: left;
-	width: 30%;
+	width:22%;
+	margin:1.5%;
 }
 
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding:20px;
-	float: right;
-	width: 62%;
+.activities >h4{
+	margin:.5em;
+}
+
+.wrapper{
+	width: 90%;
+	margin: auto;
+	color: #B9DAE3
+}
+
+
+.members img{
+	width: ;
 }
 
 .clearfix:after {
