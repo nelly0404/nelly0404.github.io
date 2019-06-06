@@ -21,8 +21,30 @@ body{
 	background-color: #B1CACD;
 }
 
-body>h2{
-	color:#E6C760;
+main>h3{
+	margin-top: 1.25em;
+	margin-bottom:1..25em;
+}
+#ticket1 {
+	align-items: center;
+	font-size:3em;
+	margin:2em 5em;
+	padding: 2.25em;
+	font-size:2.25em;
+	display: none;
+}
+
+input[type="button"] {
+	font-size: 1em;
+	display: inline-block;
+	margin-top:1em;
+	cursor:pointer;
+	background-color: #4CAF50;
+	color:white;
+}
+
+h2{
+	color:yellow;
 }
 
 h1{
@@ -34,7 +56,7 @@ h1{
 	font-size: 2.75em;
 }
 a{ 
-	color: yellow; 
+	color: #cccccc; 
 	text-decoration: none; 
 }
 
@@ -84,13 +106,11 @@ main>h3{
 }
 
 #about>h2{
-	color:black;
 	margin-top: 3em;
 	text-align: left;
 }
 
 .janay,.Alex,.Janelle {
-	float:left;
 	padding: .5em;
 	display: block;
 	text-align: center;
@@ -134,13 +154,20 @@ hr{
 	text-align: center;
 	text-decoration: none
 }
+#events>h2{
+	text-align: left;
+}
+
+.upcoming{
+	padding:.5em;
+}
 
 #contact{
-
+	background color:rgba(0,0,0,0.5);
 }
 footer{
-	margin-top: 1.5em;
-
+	margin-top: 3em;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .clearfix:after {
