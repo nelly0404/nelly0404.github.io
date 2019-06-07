@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+*{
+	padding:0;
+	margin:0;
+}
+header{
+	background-color: rgba(0,0,0,0.5);
+	padding: 1%;
+}
+header>h4{
+	font-family: 'Oswald', sans-serif;
+	text-align: right;
+	color: white;
+}
+
+nav a{
+	color: #cccccc;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	padding: 1.6%;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	color: green;
+	padding:0em .25em 0;
+	background-color: #B1CACD;
+}
+
+main>h3{
+	margin-top: 1.25em;
+	margin-bottom:1..25em;
+}
+
+
+input[type="button"] {
+	font-size: 1em;
+	display: inline-block;
+	cursor:pointer;
+	background-color: #4CAF50;
+	color:white;
+	margin-top:1em;
+	font-style: italic;
+}
+
+
+
+#Tickets1>input[type="button"] {
+	font-size:1.5em;
+	padding:.5em;
+	margin-left: 16em;
+}
+
+
+h2{
+	color:yellow;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	color: #E7FF69;
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	font-size: 2.75em;
+}
+a{ 
+	color: #cccccc; 
+	text-decoration: none; 
+}
+
+
+
+main>h3{
+	text-align: center;
+}
+
+.activities img{
+	width:100%;
+	display: block;
+}
+
+.activities{
+	background-color: #1D4D5B;
+	float: left;
+	width:22%;
+	box-sizing:border-box;
+	margin: 0 1em;
+	display: block;
+	padding:1em; 
+	margin-top:.5em; 
+	text-align: center;
+	font-size: .75em;
+}
+
+.activities >h4{
+	margin:.5em;
+}
+
+#about{
+	text-align: center;
+	padding: 0em .5em;
+	background-color: 
+}
+
+#about>p{
+	margin-bottom: 1.5em;
+}
+
+#about>h2{
+	margin-top: 3em;
+	text-align: left;
+}
+
+.janay,.Alex,.Janelle {
+	padding: .5em;
+	display: block;
+	text-align: center;
+	font-size: 1em inline;
+}
+
+
+.wrapper{
+	width: 90%;
+	margin: auto;
+	color: #B9DAE3
+}
+
+
+
+hr{
+	width: 33%;
+	margin-bottom:.5em;
+	margin-left: 33%; 
+}
+
+.gallery{
+	background-color:#1D4D5B;
+	float: left;
+	width:44%;
+	box-sizing:border-box;
+	margin: 1em;
+	display: block;
+	padding:1em;
+	margin-top:.5em; 
+}
+
+.gallery img{
+	width:100%;
+	display: block;
+	margin: 0;
+}
+
+#events{
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none
+}
+#events>h2{
+	text-align: left;
+}
+
+.upcoming{
+	padding:.5em;
+}
+
+#contact{
+	background color:rgba(0,0,0,0.5);
+}
+footer{
+	margin-top: 3em;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (max-width:1025px) {
+	body{
+		font-size: 1.25em;
+}
+	.activities{
+	width:22%;
+	margin: .70em;
+	padding:.75em;
+	font-size:.70em;
+	}
+	
+
+}
+
+@media only screen and (max-width:737px){
+	h1{
+		font-size: 1.50em;
+	}
+	nav a{
+		font-size:1em;
+	}
+	header>h4{
+		font-size:.75em;
+	}
+	.activities{
+		width: 44%;		
+	}
+	#Tickets1>input[type="button"] {
+		margin-left: 13.5em;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width:480){
+
+	body{
+		font-size: 1em;
+	}
+	.activities{
+		float: none;
+		width: 85%;
+	}
+
+	header>h4{
+		font-size:.50em;
+	}
+
+	#Tickets1>input[type="button"] {
+		margin-left: 6.75em;
+		font-size: .65em;
+
+
+}
+
+
+
+
